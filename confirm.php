@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $statusClass = "error";
     }
 }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
