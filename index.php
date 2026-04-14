@@ -13,18 +13,18 @@
 
     <form method="POST" action="confirm.php">
     
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-    <label for="message">Message:</label>
-    <input type="text" id="message" name="message" required>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required>
 
-    <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
 
-</form>
+    </form>
     
 </body>
 </html>
