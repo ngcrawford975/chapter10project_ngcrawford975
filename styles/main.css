@@ -1,0 +1,52 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e4f7e1; /* pale green */
+}
+
+/*form input styling*/
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*confirmation output styling*/
+.error {
+    color: #b30000;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border: 1px solid #b30000;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.success {
+    color: #0a5c0a;
+    background-color: #e6ffe6;
+    padding: 10px;
+    border: 1px solid #0a5c0a;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 400px;
+}
